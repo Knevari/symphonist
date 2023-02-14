@@ -1,0 +1,10 @@
+export * from "./intervals";
+export * from "./keys";
+export * from "./notes";
+export * from "./scales";
+export * from "./chords";
+export * from "./types";
+export * from "./entities";
+import { Symphonist } from "./entities/Symphonist";
+declare const _default: Symphonist;
+export default _default;
